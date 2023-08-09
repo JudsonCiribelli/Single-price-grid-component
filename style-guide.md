@@ -21,4 +21,4 @@
 ### Fonte
 
 - Família: [Karla](https://fonts.google.com/specimen/Karla)
-- Pesos: 400, 70
+- Pesos: 400, 700

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,5 +17,30 @@ body {
   border: 2px solid black;
 }
 .container .first {
-  width: 100vw;
+  background-color: white;
+  width: 696px;
+  height: 260px;
+}
+.container .first h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(179, 62%, 40%);
+  padding-top: 25px;
+  padding-left: 40px;
+}
+.container .first h4 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: hsl(71, 73%, 54%);
+  padding-left: 40px;
+  padding-top: 22px;
+}
+.container .first p {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-top: 15px;
 }
