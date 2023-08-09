@@ -14,12 +14,14 @@ body {
 .container {
   width: 700px;
   height: 600px;
-  border: 2px solid black;
+  border: none;
 }
 .container .first {
   background-color: white;
   width: 696px;
   height: 260px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 .container .first h1 {
   font-family: "Karla", sans-serif;
@@ -54,6 +56,7 @@ body {
   width: 50%;
   height: 100%;
   background-color: hsl(179, 62%, 40%);
+  border-bottom-left-radius: 6px;
 }
 .Description h2 {
   color: white;
@@ -93,4 +96,13 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  box-shadow: 10px 10px 40px black;
+}
+.container .Description .terceiro {
+  width: 50%;
+  background-color: hsl(179, 72%, 40%);
+  border-bottom-right-radius: 6px;
+}
+.Description .terceiro p {
+  padding-top: 30px;
 }
